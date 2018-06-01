@@ -39,6 +39,9 @@ a{
     margin-top: 5px;
 
 }
+#header .logo a{
+    font-family: 'Nanum Pen Script';
+}
 #header .logo img{
     display: inline-block; 
 }

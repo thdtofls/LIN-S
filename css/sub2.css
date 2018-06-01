@@ -1,0 +1,202 @@
+@charset "utf-8";
+boby,h1,h2,p{
+    margin: 0;
+}
+html,body{
+    margin: 0;
+    font-family: 'Nanum Pen Script','NanumBarunpen', sans-serif;
+    background: #ecd2fa;
+    
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+.cf:after {
+    content:"";
+    display: block;
+    clear: both;
+}
+
+#wrap{
+    width:100%;
+    display: block;
+    position: relative;
+}
+#header{
+}
+#header .logo{
+    width:97px;
+    margin: 0 auto;
+    margin-top: 5px;
+
+}
+#header .logo img{
+    display: inline-block; 
+}
+
+#header h1{
+   height: 50px;
+   font-size:18px;
+    display: block;
+   display: inline-block;
+}
+#header h1 span{
+    display: block;
+}
+
+.gnb{
+    background: #a77239;
+    width: 100%;
+}
+.gnb ul{
+    margin: 0 auto;
+}
+.gnb ul:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.gnb ul li{
+    width: 25%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    font-family: 'NanumBarunpen';
+    font-size: 15px;
+}
+.gnb ul li.bg1 a{
+    color:#e5e788;
+}
+.gnb ul li a{
+    color: #fff;
+    display: block;
+}
+
+
+
+.gnbmenu{
+    width: 100%;
+    height: 50px;
+}
+.gnbmenu ul{
+    
+}
+.gnbmenu ul li.rgt{
+     background: #e6e789;
+    height: 35px;
+
+}
+.gnbmenu ul li.rgt p{
+    width: 100%;
+    font-size: 15px;
+   
+}
+.gnbmenu ul li{
+    width: 25%;
+    font-family: 'NanumBarunpen';
+    font-size: 15px;
+    display: inline-block;
+    padding-top: 15px;
+   text-align: center;
+}
+
+
+.box{
+    font-family: 'NanumBarunpen';
+    font-size: 15px;
+    height: 650px;
+    padding: 10px;
+    
+}
+.box .boxIn{
+     background: #fff;
+     height: 530px;
+     
+}
+.box .boxIn h2{
+    padding-top: 10px;
+    text-align: center;
+}
+.box .boxIn p{
+    background: #e6e789;
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    position: absolute;
+    right: 20px;
+    top: 169px;
+}
+
+.box .boxInfo{}
+.box .boxInfo ul{
+    margin: 5px;
+    text-align: center;
+    background: #a77239;
+    height: 35px;
+}
+.box .boxInfo ul li{
+    padding:8px 26px;
+    display: inline-block;
+}
+.box .boxInfo ul.on{
+    background: #fff;
+    border-bottom: 2px solid #a77239;
+    
+}
+.box .boxInfo ul.on li{
+    padding:5px 10px;
+}
+
+.box .boxInfo ul.on1{
+    
+   
+    
+}
+.box .boxInfo ul.on1 li{
+    padding:5px 5px;
+    color:#e6e789;
+}
+.box .boxInfo ul.on1 li.tex{
+    
+}
+.box .boxInfo ul.on1 li.tex input{
+    width: 80px;
+    
+}
+.box .boxInfo ul.on1 li span.box{
+    width: 34px;
+   
+}
+.box .boxInfo ul.on1 li span a{
+    
+     background: #e6e789;
+}
+
+
+
+
+
+
+#footer{
+    background: #e5e788;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+#footer .text{
+    padding: 30px;
+}
+#footer .text p{
+    font-family: "NanumBarunpen";
+    font-size: 12px;
+    line-height: 20px;
+}
